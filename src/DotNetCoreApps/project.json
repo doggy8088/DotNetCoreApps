@@ -1,14 +1,21 @@
 ﻿{
   "version": "1.0.0-*",
   "buildOptions": {
-    "emitEntryPoint": true
+    "emitEntryPoint": true,
+    "preserveCompilationContext": true
   },
 
   "dependencies": {
+    "Microsoft.AspNetCore.Hosting": "1.0.0",
+    "Microsoft.AspNetCore.Mvc": "1.0.0",
+    "Microsoft.AspNetCore.Mvc.Core": "1.0.0",
+    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0",
+    "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0",
     "Microsoft.NETCore.App": {
       "type": "platform",
       "version": "1.0.0"
-    }
+    },
+    "System.Text.Encoding.CodePages": "4.0.1"
   },
 
   "frameworks": {
